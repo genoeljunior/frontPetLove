@@ -14,7 +14,9 @@ const Banner = () =>(
             <Image src="/logo.png" width={169} height={91} />
             </Col>
             <Col>
-              redes
+              <Row style={{ justifyContent: 'center'}}> Siga nossas redes    </Row>
+              <Row><Col style={{textAlign: 'right'}}> <Image src="/face.svg" width={58} height={58} /></Col><Col>  <Image src="/face.svg" width={58} height={58} /> </Col> </Row>
+
             </Col>
 
           </Row>
@@ -25,7 +27,9 @@ const Banner = () =>(
         <Col>
           <Row>
             <Col >
-                endereços
+                <Row>.</Row>
+                <Row><Col>Hotel e Creche</Col ><Col>Pet Shop</Col ></Row>
+                <Row><Col>(62) 9999-99999</Col ><Col>(62) 9999-95959</Col ></Row>
             </Col>
           </Row>
         </Col>
