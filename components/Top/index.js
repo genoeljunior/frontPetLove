@@ -30,7 +30,7 @@ const Top = () =>(
         </div >
     </div>
     <div className="col-sm-4" >
-    <Button className="topnav btentrar" variant="primary" size="sm">
+    <Button className="topnav btentrar" variant="primary" size="sm" Link href="/cadastro">
     Entrar
     </Button>{' '}
     <Button className="topnav btregistrar" variant="primary" size="sm">
